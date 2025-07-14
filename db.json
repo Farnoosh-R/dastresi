@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "نام محصول ۱",
+      "price": 250000,
+      "description": "توضیح کوتاه درباره محصول",
+      "images": [
+        "/images/products/product1-1.jpg",
+        "/images/products/product1-2.jpg"
+      ],
+      "category": "کالای دیجیتال",
+      "stock": 15,
+      "tags": ["پرفروش", "جدید"]
+    },
+    {
+      "id": 2,
+      "name": "نام محصول ۲",
+      "price": 120000,
+      "description": "توضیح درباره محصول ۲",
+      "images": [
+        "/images/products/product2-1.jpg"
+      ],
+      "category": "لوازم خانگی",
+      "stock": 7,
+      "tags": []
+    }
+  ],
+
+    "dailyDiscount": {
+    "right": [
+ {
+      "id": 1,
+      "title": "محصول ویژه ۱",
+      "image": "/images/special1.jpg",
+      "link": "/product/1"
+    },
+    {
+      "id": 2,
+      "title": "محصول ویژه ۲",
+      "image": "/images/special2.jpg",
+      "link": "/product/2"
+    }
+],
+    "left": [
+    {
+      "id": 1,
+      "icon": "/icons/icon1.svg",
+      "text": "اطلاعات ۱"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/icon2.svg",
+      "text": "اطلاعات ۲"
+    },
+    {
+      "id": 3,
+      "icon": "/icons/icon3.svg",
+      "text": "اطلاعات ۳"
+    }
+]
+  },
+  
+
+  "sliders": [
+    {
+      "id": 1,
+      "title": "تخفیف ویژه تابستانی",
+      "image": "/images/sliders/slider1.jpg",
+      "link": "/sale"
+    },
+    {
+      "id": 2,
+      "title": "محصولات جدید",
+      "image": "/images/sliders/slider2.jpg",
+      "link": "/new-products"
+    }
+  ],
+
+  "categories": [
+    { "id": 1, "name": "کالای دیجیتال" },
+    { "id": 2, "name": "لوازم خانگی" }
+  ]
+}
