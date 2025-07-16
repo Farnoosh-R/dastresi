@@ -28,6 +28,46 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  font-size: 2.25rem; /* Tailwind: text-4xl */
+  font-weight: 700;   /* Tailwind: font-bold */
+  letter-spacing: -0.015em; /* Tailwind: tracking-tight */
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.875rem; /* Tailwind: text-3xl */
+  font-weight: 600;    /* Tailwind: font-semibold */
+  letter-spacing: -0.015em;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;   /* Tailwind: text-2xl */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.25rem;  /* Tailwind: text-xl */
+  font-weight: 500;    /* Tailwind: font-medium */
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.125rem; /* Tailwind: text-lg */
+  font-weight: 500;
+  color: #1f2937;      /* Tailwind: text-gray-800 */
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1rem;     /* Tailwind: text-base */
+  font-weight: 600;
+  color: #374151;      /* Tailwind: text-gray-700 */
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
 
 
 a {
@@ -84,4 +124,22 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+@media (min-width: 768px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.875rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.125rem; }
+  h6 { font-size: 1rem; }
+}
+
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 1.875rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.25rem; }
+  h6 { font-size: 1.125rem; }
 }

@@ -31,14 +31,16 @@
     "right": [
  {
       "id": 1,
-      "title": "محصول ویژه ۱",
-      "image": "/images/special1.jpg",
+      "title": "شارژر دیواری 67 واتی گان با کابل تایپ سی مک دودو مدل Mcdodo CH-410",
+      "price": "2,399,000",
+      "image": "/src/assets/dailyDiscount/MCDODO-4100-11.jpg",
       "link": "/product/1"
     },
     {
       "id": 2,
-      "title": "محصول ویژه ۲",
-      "image": "/images/special2.jpg",
+      "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486",
+      "price": "1,490,000",
+      "image": "/src/assets/dailyDiscount/MCDODO-486-11.jpg",
       "link": "/product/2"
     }
 ],
