@@ -7,6 +7,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Shabnam";
+  src: url("/fonts/shabnam/Shabnam-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 :root {
   --gray-0: #e2e2e2;
@@ -32,33 +38,28 @@ h1 {
   font-size: 2.25rem; /* Tailwind: text-4xl */
   font-weight: 700;   /* Tailwind: font-bold */
   letter-spacing: -0.015em; /* Tailwind: tracking-tight */
-  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.875rem; /* Tailwind: text-3xl */
-  font-weight: 600;    /* Tailwind: font-semibold */
+  font-weight: 700;    /* Tailwind: font-semibold */
   letter-spacing: -0.015em;
-  margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.5rem;   /* Tailwind: text-2xl */
   font-weight: 600;
-  margin-bottom: 0.75rem;
 }
 
 h4 {
   font-size: 1.25rem;  /* Tailwind: text-xl */
   font-weight: 500;    /* Tailwind: font-medium */
-  margin-bottom: 0.5rem;
 }
 
 h5 {
   font-size: 1.125rem; /* Tailwind: text-lg */
   font-weight: 500;
   color: #1f2937;      /* Tailwind: text-gray-800 */
-  margin-bottom: 0.5rem;
 }
 
 h6 {
@@ -66,7 +67,6 @@ h6 {
   font-weight: 600;
   color: #374151;      /* Tailwind: text-gray-700 */
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
 }
 
 

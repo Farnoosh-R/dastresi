@@ -30,35 +30,46 @@
     "dailyDiscount": {
     "right": [
  {
-      "id": 1,
+      "id": "dailyDiscountRight1",
       "title": "شارژر دیواری 67 واتی گان با کابل تایپ سی مک دودو مدل Mcdodo CH-410",
-      "price": "2,399,000",
+      "price": "۲,۳۹۹,۰۰۰",
+      "discount": "۳۵۵,۰۰۰",
       "image": "/src/assets/dailyDiscount/MCDODO-4100-11.jpg",
       "link": "/product/1"
     },
     {
-      "id": 2,
-      "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486",
-      "price": "1,490,000",
+      "id": "dailyDiscountRight2",
+      "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486 ",
+      "price": "۱,۴۹۰,۰۰۰",
+      "discount": "۳۰۰,۰۰۰",
       "image": "/src/assets/dailyDiscount/MCDODO-486-11.jpg",
       "link": "/product/2"
     }
 ],
     "left": [
     {
-      "id": 1,
-      "icon": "/icons/icon1.svg",
-      "text": "اطلاعات ۱"
+      "id": "dailyDiscountLeft1",
+      "title": "رابط برق USB دار مک دودو 30 وات مدل Mcdodo CH-062",
+      "price": "۱,۸۰۰,۰۰۰",
+      "discount": "۴۰۰,۰۰۰",
+      "image": "/src/assets/dailyDiscount/mcdodo-062-11.jpg",
+      "link": "/product/2"
     },
     {
-      "id": 2,
-      "icon": "/icons/icon2.svg",
-      "text": "اطلاعات ۲"
+       "id": "dailyDiscountLeft2",
+      "title": "اینورتر خودرو 150 واتی پاورولوژی مدل Powerology P150INV",
+      "price": "۲,۷۵۰,۰۰۰",
+      "discount": "۳۱۰,۰۰۰",
+      "image": "/src/assets/dailyDiscount/Powerology-P150INV-11.jpg",
+      "link": "/product/2"
     },
     {
-      "id": 3,
-      "icon": "/icons/icon3.svg",
-      "text": "اطلاعات ۳"
+       "id": "dailyDiscountLeft3",
+      "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486 ",
+      "price": "۲,۸۹۰,۰۰۰",
+      "discount": "۳۰۰,۰۰۰",
+      "image": "/src/assets/dailyDiscount/Ldnio-6140-11.jpg",
+      "link": "/product/2"
     }
 ]
   },

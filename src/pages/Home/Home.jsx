@@ -1,4 +1,5 @@
 import DailyDiscount from "../../components/DailyDiscount/DailyDiscount";
+import SelectedCat from "../../components/SelectedCat/SelectedCat";
 import Slider from "../../components/Slider/Slider"
 
 const Home = () => {
@@ -7,6 +8,8 @@ const Home = () => {
             <Slider />
             <br />
             <DailyDiscount />
+            <br />
+            <SelectedCat />
         </div>
     )
 }
