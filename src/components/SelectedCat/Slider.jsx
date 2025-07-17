@@ -15,11 +15,12 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function Slider() {
   return (
     <>
+    <div className="selected-cat">
       <Swiper
         spaceBetween={10}
         slidesPerView={7}
         centeredSlides={false}
-        loopedSlides={8}
+        loopedslides={8}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -58,6 +59,7 @@ export default function Slider() {
           <img src="../../src/assets/selectedCat/powerbank.png" alt="" />
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }

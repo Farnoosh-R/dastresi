@@ -1,4 +1,4 @@
-.swiper {
+.selected-cat .swiper {
   width: 100%;
   height: 100%;
     padding-left: 0 !important;
@@ -7,7 +7,7 @@
   margin-right: 0 !important;
 }
 
-.swiper-slide {
+.selected-cat .swiper-slide {
   width: auto !important;  /* اجازه میده عرض بر اساس محتوا باشه */
   max-width: 180px;
   
@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.swiper-slide img {
+.selected-cat .swiper-slide img {
   width: 180px;
   height: auto;
   display: block;

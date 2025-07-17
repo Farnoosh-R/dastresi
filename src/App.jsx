@@ -11,6 +11,7 @@ function App() {
 
 const [dailyDiscountRight, setDailyDiscountRight] = useState([]);
 const [dailyDiscountLeft, setDailyDiscountLeft] = useState([]);
+const [availableNow, setAvailableNow] = useState([]);
 
 const fetchDailyDiscount = async () => {
   let res = await fetch("../db.json")
@@ -18,13 +19,20 @@ const fetchDailyDiscount = async () => {
   setDailyDiscountRight(data.dailyDiscount.right);
   setDailyDiscountLeft(data.dailyDiscount.left);
 }
+const fetchAvailableNow = async () => {
+  let res = await fetch("../db.json");
+  let data = await res.json();
+  setAvailableNow(data.availableNow);
+  console.log(availableNow)
+}
 useEffect(() => {
   fetchDailyDiscount();
+  fetchAvailableNow();
 },[])
 
   return (
     <BrowserRouter>
-    <MyContext value={{dailyDiscountRight: dailyDiscountRight, dailyDiscountLeft: dailyDiscountLeft}}>
+    <MyContext value={{dailyDiscountRight: dailyDiscountRight, dailyDiscountLeft: dailyDiscountLeft, availableNow: availableNow}}>
     <Routes>
       <Route path="/" element={<Home />} />
       </Routes>

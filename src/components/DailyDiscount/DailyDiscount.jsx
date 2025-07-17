@@ -8,7 +8,7 @@ const DailyDiscount = () => {
   const { dailyDiscountLeft } = useContext(MyContext);
 
   return (
-    <div className="daily-discount container rounded-[15px] p-5 bg-[var(--gray-0)]">
+    <div className="daily-discount container rounded-[15px] p-8 bg-[var(--gray-0)]">
       <div className="flex justify-between mb-4">
         <CountdownTimer initialSeconds={5400}/>
         <div className="flex items-center">
@@ -26,7 +26,7 @@ const DailyDiscount = () => {
 <div className="flex flex-col gap-6">
             {dailyDiscountLeft?.map((item) => {
             return (
-              <div className="bg-white flex rounded-[15px] p-4 mr-5 hover:shadow-2xl hover:z-50">
+              <div className="bg-white flex rounded-[15px] p-4 mr-5 hover:shadow-2xl hover:z-50" key={item.id}>
                 <div>
                   <div>{item.title}</div>
                   <div className="flex justify-between mb-4">
@@ -56,7 +56,7 @@ const DailyDiscount = () => {
         <div className="right flex gap-6 w-2/3">
           {dailyDiscountRight?.map((item) => {
             return (
-              <div className="bg-white rounded-[15px] p-4 flex-1 hover:shadow-2xl hover:z-50">
+              <div className="bg-white rounded-[15px] p-4 flex-1 hover:shadow-2xl hover:z-50" key={item.id}>
                 <img src={item.image} alt="" />
                 <div className="text-right mb-8">{item.title}</div>
                 <div className="flex justify-between mb-4">
