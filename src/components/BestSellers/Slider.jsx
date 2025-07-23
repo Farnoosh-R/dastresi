@@ -12,9 +12,9 @@ import "./styles.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-export default function Slider({ availableNow }) {
+export default function Slider({ bestSellers }) {
   //   const { availableNow } = useContext(MyContext);
-  // console.log(availableNow);
+  console.log(bestSellers);
   return (
     <div className="available-now w-full max-w-[1200px] mx-auto">
       <Swiper
@@ -30,7 +30,7 @@ export default function Slider({ availableNow }) {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        {availableNow?.map((item) => {
+        {bestSellers?.map((item) => {
           return (
             <SwiperSlide key={item.id}>
               <div className="swiper-slide-box shadow-md bg-white pt-3 rounded-[15px] overflow-hidden">
