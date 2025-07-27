@@ -17,7 +17,8 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 export default function Slider() {
   return (
     <>
-      <Swiper
+      <div className="slider-main">
+              <Swiper
         spaceBetween={0}
         effect={"fade"}
         autoplay={{
@@ -47,6 +48,7 @@ export default function Slider() {
           <img className="block w-full" src="../../src/assets/banner-dastresi-4.jpg" />
         </SwiperSlide>
       </Swiper>
+         </div>
     </>
   );
 }

@@ -1,8 +1,8 @@
 const WhyDastresi = () => {
   return (
-    <div className="why-dastresi container ">
-      <h3 className="mb-[50px]">چرا دسترسی رو برای خرید انتخاب کنیم؟</h3>
-      <div className="flex items-center gap-5 leading-8">
+    <div className="why-dastresi container text-center">
+      <h3 className="mb-[50px] text-center">چرا دسترسی رو برای خرید انتخاب کنیم؟</h3>
+      <div className="flex flex-col md:flex-row items-center gap-5 leading-8">
         <div className="flex-1">
           <img
             className="block mx-auto w-[25%]"

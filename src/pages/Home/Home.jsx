@@ -1,3 +1,4 @@
+import Articles from "../../components/Articles/Articles";
 import AvailableNow from "../../components/AvailableNow/AvailableNow";
 import BestSellers from "../../components/BestSellers/BestSellers";
 import Brands from "../../components/Brands/Brands";
@@ -8,7 +9,7 @@ import WhyDastresi from "../../components/WhyDastresi/WhyDastresi";
 
 const Home = () => {
     return(
-        <div className="home container">
+        <div className="home container mx-auto px-[150px] text-right">
             <Slider />
             <br />
             <DailyDiscount />
@@ -22,6 +23,9 @@ const Home = () => {
             <BestSellers />
             <br />
             <Brands />
+            <br />
+            <Articles />
+            <br />
         </div>
     )
 }

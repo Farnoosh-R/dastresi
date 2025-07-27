@@ -248,6 +248,48 @@
       "image": "/src/assets/bestSellers/battrey-xiaomi-NIM-1161.jpg"
     }
   ],
+  "articles": [
+    {
+      "id": "articles1",
+      "title": "بهترین هارد اکسترنال SSD: سرعت و امنیت در کنار هم!",
+      "image": "/src/assets/articles/ssd-external-dastresi-Artboard.jpg"
+    },
+        {
+      "id": "articles2",
+      "title": "بهترین ساعت‌ های هوشمند صفحه گرد: قیمت و مدل‌های برتر در دسترسی",
+      "image": "/src/assets/articles/round-screen-smart-watch-dastresiArtboard.jpg"
+    },
+        {
+      "id": "articles3",
+      "title": "کابل MFi چیست؟ : ناجی باتری آیفون شما یا یک حقه تبلیغاتی؟",
+      "image": "/src/assets/articles/what-is-mfi-apple-dastresi-Artboard.jpg"
+    },
+        {
+      "id": "articles4",
+      "title": "شارژ بی‌ سیم در برابر شارژ با کابل: کدام یک برای آیفون شما بهتر است؟",
+      "image": "/src/assets/articles/wireless-charging-vs-charger-dastresiArtboard.jpg"
+    },
+        {
+      "id": "articles5",
+      "title": "بهترین کابل شارژ برای آیفون: راهنمای کامل انتخاب در ۵ دقیقه!",
+      "image": "/src/assets/articles/iphone-cable-charger-dastresiArtboard.jpg"
+    },
+        {
+      "id": "articles6",
+      "title": "خرید بهترین هندزفری سیمی تا ۵۰۰ تومان",
+      "image": "/src/assets/articles/wired-handsfree-phone-dastresi.jpg"
+    },
+        {
+      "id": "articles7",
+      "title": "معرفی ۵ مدل از بهترین میکروفون بویا",
+      "image": "/src/assets/articles/best-smelling-microphone-dastresi-Artboard.jpg"
+    },
+        {
+      "id": "articles8",
+      "title": "راهنمای خرید بهترین میکروفون زیر ۱ میلیون تومان",
+      "image": "/src/assets/articles/Microphone-under-1-millionArtboard.jpg"
+    }
+  ],
 
   "sliders": [
     {

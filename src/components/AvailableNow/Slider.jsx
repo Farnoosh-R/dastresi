@@ -22,10 +22,10 @@ export default function Slider({ availableNow }) {
         slidesPerView={4}
         centeredSlides={false}
         loop={true}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"

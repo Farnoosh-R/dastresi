@@ -8,7 +8,7 @@ const DailyDiscount = () => {
   const { dailyDiscountLeft } = useContext(MyContext);
 
   return (
-    <div className="daily-discount container rounded-[15px] p-8 bg-[var(--gray-0)]">
+    <div className="daily-discount rounded-[15px] p-8 bg-[var(--gray-0)]">
       <div className="flex justify-between mb-4">
         <CountdownTimer initialSeconds={5400}/>
         <div className="flex items-center">
@@ -21,7 +21,7 @@ const DailyDiscount = () => {
         </div>
       </div>
 
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="left w-1/3">
 <div className="flex flex-col gap-6">
             {dailyDiscountLeft?.map((item) => {
