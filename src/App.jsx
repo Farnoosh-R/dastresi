@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import React, { useEffect, useState } from "react";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 export let MyContext = React.createContext();
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           articles: articles
         }}
       >
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
