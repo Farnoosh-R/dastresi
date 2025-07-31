@@ -73,9 +73,9 @@ h6 {
 
 
 
-a:hover {
+/* a:hover {
   color: var(--blue);
-}
+} */
 
 body {
   margin: 0;
@@ -109,9 +109,9 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: var(--blue);
-  }
+  } */
 }
 @media (min-width: 768px) {
   h1 { font-size: 2.25rem; }
