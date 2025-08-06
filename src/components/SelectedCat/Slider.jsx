@@ -41,7 +41,7 @@ export default function Slider() {
           <img src="../../src/assets/selectedCat/cable.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/gaming" alt="" />
+          <img src="../../src/assets/selectedCat/gaming.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="../../src/assets/selectedCat/handsfree.png" alt="" />

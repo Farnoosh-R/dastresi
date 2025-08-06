@@ -4,12 +4,12 @@ swiper {
 }
 
 .slider-main .swiper{
-    height: 400px;
+    height: auto;
     border-radius: 15px;
 }
 .slider-main .mySwiper {
   width: 100% !important;
-  max-width: 100%; /* حتماً اینم داشته باش */
+  max-width: 100%; 
 }
 .slider-main .swiper-slide {
   background-position: center;
@@ -19,8 +19,9 @@ swiper {
 
 .slider-main .swiper-slide img {
   display: block;
-  width: 100%!important;
+  width: 96%!important;
   height: 100%;
   object-fit: contain;
   border-radius: 15px;
+  margin: auto;
 }

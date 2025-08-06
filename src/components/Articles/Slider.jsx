@@ -26,6 +26,7 @@ export default function Slider({ articles }) {
           delay: 3000,
           disableOnInteraction: false,
         }}
+
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"

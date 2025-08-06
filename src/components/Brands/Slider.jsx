@@ -26,7 +26,17 @@ export default function Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-    
+        // breakpoints={{
+        //     0: {
+        //       slidesPerView: 1.5,
+        //     },
+        //     768: {
+        //       slidesPerView: 2.5,
+        //     },
+        //     1024: {
+        //       slidesPerView: 4.5,
+        //     },
+        //   }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"

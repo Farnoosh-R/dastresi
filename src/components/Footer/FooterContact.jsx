@@ -4,7 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const FooterContact = () => {
   return (
-    <div className="footer-contact text-[var(--gray-2)] container flex mx-auto gap-20 justify-center py-[30px] w-[100%] bg-[var(--gray-0)]">
+    <div className="footer-contact text-[var(--gray-2)] w-full px-[40%] sm:px-[25%] flex flex-col md:flex-row gap-20 justify-center py-[30px] bg-[var(--gray-0)]">
       <div className="flex">
         <div className="mr-3">
           تهران - میدان امام خمینی - پاساژ لباف - همکف - پلاک 3 - فروشگاه بدیع

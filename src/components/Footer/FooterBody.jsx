@@ -1,6 +1,6 @@
 const FooterBody = () => {
   return (
-    <div className="footer-body flex gap-8 bg-[var(--gray-3)] container px-[150px] leading-8 items-center">
+    <div className="footer-body flex flex-col md:flex-row gap-8 bg-[var(--gray-3)] w-full px-[40%] sm:px-[25%] leading-8 items-center">
       <div className="flex-1">
         <img className="w-[125px]" src="../../src/assets/enamad.jpg" alt="" />
       </div>
@@ -34,7 +34,7 @@ const FooterBody = () => {
       </div>
 
       <div className="flex-1">
-        <img className="mb-8" src="../../src/assets/logo.png" alt="logo" />
+        <img className="mb-8 w-[50%] sm:w-full" src="../../src/assets/logo.png" alt="logo" />
         <div className="flex justify-center items-center">
           <img className="mr-3" src="../../src/assets/instagram.png" alt="logo" />
           <div>:با ما در ارتباط باشید</div>

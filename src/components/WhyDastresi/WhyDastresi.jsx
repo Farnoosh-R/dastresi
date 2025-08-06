@@ -1,6 +1,6 @@
 const WhyDastresi = () => {
   return (
-    <div className="why-dastresi container text-center">
+    <div className="why-dastresi w-full px-[25%] text-center">
       <h3 className="mb-[50px] text-center">چرا دسترسی رو برای خرید انتخاب کنیم؟</h3>
       <div className="flex flex-col md:flex-row items-center gap-5 leading-8">
         <div className="flex-1">

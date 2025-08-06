@@ -9,8 +9,9 @@ const { bestSellers } = useContext(MyContext);
 
 
   return (
-    <div className="best-sellers rounded-[15px] p-8 bg-[var(--gray-0)]">
-      <div className="flex justify-between mb-4">
+    <div className="best-sellers w-full px-[40%] sm:px-[25%]">
+      <div className="rounded-[15px] p-8 bg-[var(--gray-0)]">
+              <div className="flex justify-between mb-4">
         <div className="flex items-center text-[var(--gray-2)] font-bold">
             <div className="border-1 border-[var(--gray-1)] p-1 rounded-[5px] mr-1"><IoIosArrowBack /></div>
             <div><a href="#" className="">مشاهده همه محصولات</a></div>
@@ -29,6 +30,7 @@ const { bestSellers } = useContext(MyContext);
        
     
         </div>
+      </div>
       
 
     </div>

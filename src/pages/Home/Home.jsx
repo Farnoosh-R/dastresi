@@ -9,7 +9,7 @@ import WhyDastresi from "../../components/WhyDastresi/WhyDastresi";
 
 const Home = () => {
     return(
-        <div className="home container mx-auto px-[150px] pt-[170px] text-right">
+        <div className="home pt-[150px] text-right">
             <Slider />
             <br />
             <DailyDiscount />

@@ -6,7 +6,7 @@ const Articles = () => {
 const {articles} = useContext(MyContext);
 
     return(
-        <div className="articles py-4">
+        <div className="article w-full px-[40%] sm:px-[25%] py-4">
             <h2 className="text-right mb-[50px] text-[var(--gray-2)]">آخرین مقالات</h2>
             <Slider articles={articles}/>
         </div>
