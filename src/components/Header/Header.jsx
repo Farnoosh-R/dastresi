@@ -7,7 +7,6 @@ import MobileDropdown from "./MobileDropdown";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
-
 const Header = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -33,6 +32,7 @@ const Header = () => {
             return <SubMenu item={item} key={index} />;
           })}
         </div>
+
       </div>
 
       {/*mobile*/}

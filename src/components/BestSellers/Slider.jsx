@@ -35,7 +35,7 @@ export default function Slider({ bestSellers }) {
             <SwiperSlide key={item.id}>
               <div className="swiper-slide-box shadow-md bg-white pt-3 rounded-[15px] overflow-hidden">
                 <img className="px-3" src={item.image} alt="" />
-                <div className="text-[13px] text-[var(--gray-1)] my-3">{item.description}</div>
+                <div className="text-[13px] text-center text-[var(--gray-1)] my-3">{item.description}</div>
                 <div className="w-full max-w-[200px] truncate mx-auto mb-3"><a href="">{item.title}</a></div>
 
                 {item.available ?   (<><div className="text-left line-through text-[var(--gray-1)] min-h-[20px] px-3">{item.discount}</div>
@@ -46,7 +46,7 @@ export default function Slider({ bestSellers }) {
                   <div className="text-[20px] font-bold text-[var(--blue)]">
                     {item.price}
                   </div>
-                </div></>) : (<div className="bg-red-200 text-red-500 py-[14px]">ناموجود</div>)    }
+                </div></>) : (<div className="bg-red-200 text-center text-red-500 py-[14px]">ناموجود</div>)    }
 
               </div>
             </SwiperSlide>

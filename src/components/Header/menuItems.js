@@ -104,5 +104,80 @@ export const menuItems = [
         {label: "اف ام پلیر", path: "/a"},
     ]
   },
-  {label: "برند‌ها", path: "/a"}
+//   {label: "برند‌ها",type: "mega", path: "/a",
+//     subMenu: [
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"},
+//         {label: "Neekin", path: "/a"}
+//     ]
+//   }
+{
+  label: "برندها",
+  path: "/brands",
+  type: "mega", 
+  subMenu: [
+    {
+      label: "",
+      subMenu: [
+        { label: "Neekin", path: "/brands/1" },
+        { label: "pioneer", path: "/brands/2" },
+        { label: "GP", path: "/brands/2" },
+        { label: "A4tech", path: "/brands/2" },
+        { label: "1more", path: "/brands/2" },
+        { label: "Maxell", path: "/brands/2" },
+      ]
+    },
+    {
+      label: "",
+      subMenu: [
+        { label: "Anker", path: "/brands/3" },
+        { label: "inoben", path: "/brands/4" },
+        { label: "Momax", path: "/brands/4" },
+        { label: "Western Digital", path: "/brands/4" },
+        { label: "Xiaomi", path: "/brands/4" },
+        { label: "Panasonic", path: "/brands/4" },
+      ]
+    },
+    {
+      label: "",
+      subMenu: [
+        { label: "Baseus", path: "/brands/5" },
+        { label: "Boya", path: "/brands/6" },
+        { label: "Mcdodo", path: "/brands/6" },
+        { label: "Powerology", path: "/brands/6" },
+        { label: "Ravpower", path: "/brands/6" },
+        { label: "Aukey", path: "/brands/6" },
+      ]
+    },
+    {
+      label: "",
+      subMenu: [
+        { label: "yesido", path: "/brands/7" },
+        { label: "Naztech", path: "/brands/8" },
+        { label: "ProOne", path: "/brands/8" },
+        { label: "Ldnio", path: "/brands/8" },
+        { label: "Duracell", path: "/brands/8" },
+        { label: "Somo", path: "/brands/8" },
+      ]
+    },
+    {
+      label: "",
+      subMenu: [
+        { label: "Haylou", path: "/brands/9" },
+        { label: "Die Hard", path: "/brands/10" },
+        { label: "SkullCandy", path: "/brands/10" },
+        { label: "Apple", path: "/brands/10" },
+        { label: "Camelion", path: "/brands/10" },
+        { label: "Koluman Plus", path: "/brands/10" },
+      ]
+    },
+  ]
+}
+
+
+
 ];

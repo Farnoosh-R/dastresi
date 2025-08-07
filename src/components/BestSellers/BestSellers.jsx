@@ -3,9 +3,9 @@ import { useContext } from "react";
 import { MyContext } from "../../App";
 import Slider from "./Slider";
 
-const BestSellers = () => {
+const BestSellers = ({bestSellers}) => {
 
-const { bestSellers } = useContext(MyContext);
+// const { bestSellers } = useContext(MyContext);
 
 
   return (

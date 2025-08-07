@@ -1,11 +1,15 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { MyContext } from "../../App";
 import { FaPercent } from "react-icons/fa";
 import CountdownTimer from "../CountdownTimer/CountdownTimer";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchData } from "../../redux/products/ProductsSlice";
 
-const DailyDiscount = () => {
-  const { dailyDiscountRight } = useContext(MyContext);
-  const { dailyDiscountLeft } = useContext(MyContext);
+const DailyDiscount = ({dailyDiscountRight, dailyDiscountLeft}) => {
+  // const { dailyDiscountRight } = useContext(MyContext);
+  // const { dailyDiscountLeft } = useContext(MyContext);
+
+
 
   return (
     <div className="daily-discount w-full px-[40%] sm:px-[25%] ">
@@ -64,11 +68,11 @@ const DailyDiscount = () => {
               {dailyDiscountRight?.map((item) => {
                 return (
                   <div
-                    className="bg-white rounded-[15px] p-4 flex-1 hover:shadow-2xl hover:z-50"
+                    className="bg-white rounded-[15px] p-4 flex-1 hover:shadow-2xl hover:z-50 h-auto"
                     key={item.id}
                   >
                     <img src={item.image} alt="" />
-                    <div className="text-right mb-8">{item.title}</div>
+                    <div className="text-right mb-29">{item.title}</div>
                     <div className="flex justify-between mb-4">
                       <div className="flex text-[var(--red)]">
                         <span>تومان تخفیف</span>

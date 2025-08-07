@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { MyContext } from "../../App";
 import Slider from "./Slider";
 
-const Articles = () => {
-const {articles} = useContext(MyContext);
+const Articles = ({articles}) => {
+// const {articles} = useContext(MyContext);
 
     return(
         <div className="article w-full px-[40%] sm:px-[25%] py-4">
