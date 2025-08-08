@@ -24,6 +24,8 @@ const dispatch = useDispatch();
     error,
   } = useSelector((state) => state.data);
 
+  
+
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
