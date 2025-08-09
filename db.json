@@ -7,7 +7,7 @@
       "discount": "۳,۹۰۰,۰۰۰",
       "description": "پاوربانک و جامپ استارتر",
       "available": true,
-      "image": "/src/assets/availableNow/POWEROLOGY-PPCHA77-11.jpg"
+      "image": "images/availableNow/POWEROLOGY-PPCHA77-11.jpg"
     },
     {
       "id": "availableNow2",
@@ -16,7 +16,7 @@
       "discount": "۲,۶۹۰,۰۰۰",
       "description": "انواع گجت های جذاب",
       "available": true,
-      "image": "/src/assets/availableNow/MASSAGE-BALL-11.jpg"
+      "image": "images/availableNow/MASSAGE-BALL-11.jpg"
     },
     {
       "id": "availableNow3",
@@ -25,7 +25,7 @@
       "discount": "",
       "description": "لوازم خانگی و شخصی",
       "available": true,
-      "image": "/src/assets/availableNow/juser-green7-11.jpg"
+      "image": "images/availableNow/juser-green7-11.jpg"
     },
     {
       "id": "availableNow4",
@@ -34,7 +34,7 @@
       "discount": "۱,۹۲۰,۰۰۰ ",
       "description": "انواع گجت های جذاب",
       "available": true,
-      "image": "/src/assets/availableNow/POMP-GREEN-11.jpg"
+      "image": "images/availableNow/POMP-GREEN-11.jpg"
     },
     {
       "id": "availableNow5",
@@ -43,7 +43,7 @@
       "discount": "",
       "description": "رابط برق و USB",
       "available": true,
-      "image": "/src/assets/availableNow/SE3338-11.jpg"
+      "image": "images/availableNow/SE3338-11.jpg"
     },
     {
       "id": "availableNow6",
@@ -52,7 +52,7 @@
       "discount": "",
       "description": "شارژر رومیزی",
       "available": true,
-      "image": "/src/assets/availableNow/Q4010-11.jpg"
+      "image": "images/availableNow/Q4010-11.jpg"
     },
     {
       "id": "availableNow7",
@@ -61,7 +61,7 @@
       "discount": "",
       "description": "انواع گجت های جذاب",
       "available": false,
-      "image": "/src/assets/availableNow/JETFAN-11.jpg"
+      "image": "images/availableNow/JETFAN-11.jpg"
     },
     {
       "id": "availableNow8",
@@ -70,7 +70,7 @@
       "discount": "۵,۸۱۰,۰۰۰",
       "description": "پاوربانک و جامپ استارتر",
       "available": false,
-      "image": "/src/assets/availableNow/ORAIMO725-11.jpg"
+      "image": "images/availableNow/ORAIMO725-11.jpg"
     },
     {
       "id": "availableNow9",
@@ -79,7 +79,7 @@
       "discount": "",
       "description": "شارژر دیواری",
       "available": true,
-      "image": "/src/assets/availableNow/ANKER2348-11.jpg"
+      "image": "images/availableNow/ANKER2348-11.jpg"
     },
     {
       "id": "availableNow10",
@@ -88,7 +88,7 @@
       "discount": "",
       "description": "پاوربانک و جامپ استارتر",
       "available": false,
-      "image": "/src/assets/availableNow/50GREEN-11.jpg"
+      "image": "images/availableNow/50GREEN-11.jpg"
     },
     {
       "id": "availableNow11",
@@ -97,7 +97,7 @@
       "discount": "۵۵۰,۰۰۰ ",
       "description": "پاوربانک و جامپ استارتر",
       "available": true,
-      "image": "/src/assets/availableNow/ORAIMO725-11.jpg"
+      "image": "images/availableNow/ORAIMO725-11.jpg"
     }
   ],
 
@@ -108,7 +108,7 @@
         "title": "شارژر دیواری 67 واتی گان با کابل تایپ سی مک دودو مدل Mcdodo CH-410",
         "price": "۲,۳۹۹,۰۰۰",
         "discount": "۳۵۵,۰۰۰",
-        "image": "/src/assets/dailyDiscount/MCDODO-4100-11.jpg",
+        "image": "images/dailyDiscount/MCDODO-4100-11.jpg",
         "link": "/product/1"
       },
       {
@@ -116,7 +116,7 @@
         "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486 ",
         "price": "۱,۴۹۰,۰۰۰",
         "discount": "۳۰۰,۰۰۰",
-        "image": "/src/assets/dailyDiscount/MCDODO-486-11.jpg",
+        "image": "images/dailyDiscount/MCDODO-486-11.jpg",
         "link": "/product/2"
       }
     ],
@@ -126,7 +126,7 @@
         "title": "رابط برق USB دار مک دودو 30 وات مدل Mcdodo CH-062",
         "price": "۱,۸۰۰,۰۰۰",
         "discount": "۴۰۰,۰۰۰",
-        "image": "/src/assets/dailyDiscount/mcdodo-062-11.jpg",
+        "image": "images/dailyDiscount/mcdodo-062-11.jpg",
         "link": "/product/2"
       },
       {
@@ -134,7 +134,7 @@
         "title": "اینورتر خودرو 150 واتی پاورولوژی مدل Powerology P150INV",
         "price": "۲,۷۵۰,۰۰۰",
         "discount": "۳۱۰,۰۰۰",
-        "image": "/src/assets/dailyDiscount/Powerology-P150INV-11.jpg",
+        "image": "images/dailyDiscount/Powerology-P150INV-11.jpg",
         "link": "/product/2"
       },
       {
@@ -142,7 +142,7 @@
         "title": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486 ",
         "price": "۲,۸۹۰,۰۰۰",
         "discount": "۳۰۰,۰۰۰",
-        "image": "/src/assets/dailyDiscount/Ldnio-6140-11.jpg",
+        "image": "images/dailyDiscount/Ldnio-6140-11.jpg",
         "link": "/product/2"
       }
     ]
@@ -155,7 +155,7 @@
       "discount": "",
       "description": "باتری آلکالاین",
       "available": true,
-      "image": "/src/assets/bestSellers/battrey-xiaomi-11.jpg"
+      "image": "images/bestSellers/battrey-xiaomi-11.jpg"
     },
     {
       "id": "bestSellers2",
@@ -164,7 +164,7 @@
       "discount": "۲,۵۹۰,۰۰۰",
       "description": "ماوس و کیبورد و پدموس",
       "available": true,
-      "image": "/src/assets/bestSellers/keyboard.jpg"
+      "image": "images/bestSellers/keyboard.jpg"
     },
     {
       "id": "bestSellers3",
@@ -173,7 +173,7 @@
       "discount": "",
       "description": "انواع گجت های جذاب",
       "available": true,
-      "image": "/src/assets/bestSellers/JUMP-GREEN-11.jpg"
+      "image": "images/bestSellers/JUMP-GREEN-11.jpg"
     },
     {
       "id": "bestSellers4",
@@ -182,7 +182,7 @@
       "discount": "۱,۹۲۰,۰۰۰",
       "description": "انواع گجت های جذاب",
       "available": true,
-      "image": "/src/assets/bestSellers/POMP-GREEN-11.jpg"
+      "image": "images/bestSellers/POMP-GREEN-11.jpg"
     },
     {
       "id": "bestSellers5",
@@ -191,7 +191,7 @@
       "discount": "",
       "description": "پاوربانک و جامپ استارتر",
       "available": true,
-      "image": "/src/assets/bestSellers/green-lion-11.jpg"
+      "image": "images/bestSellers/green-lion-11.jpg"
     },
     {
       "id": "bestSellers6",
@@ -200,7 +200,7 @@
       "discount": "۱,۲۹۰,۰۰۰",
       "description": "پاوربانک و جامپ استارتر",
       "available": true,
-      "image": "/src/assets/bestsellers/PBFCH051-11.jpg"
+      "image": "images/bestSellers/PBFCH051-11.jpg"
     },
     {
       "id": "bestSellers7",
@@ -209,7 +209,7 @@
       "discount": "۵,۲۰۰,۰۰۰",
       "description": "انواع گجت های جذاب",
       "available": false,
-      "image": "/src/assets/bestSellers/DOORBIAN-ACTION-11.jpg"
+      "image": "images/bestSellers/DOORBIAN-ACTION-11.jpg"
     },
     {
       "id": "bestSellers8",
@@ -218,7 +218,7 @@
       "discount": "۲,۷۵۴,۰۰۰",
       "description": "شارژر دیواری",
       "available": false,
-      "image": "/src/assets/bestSellers/MCDODO-4100-11.jpg"
+      "image": "images/bestSellers/MCDODO-4100-11.jpg"
     },
     {
       "id": "bestSellers9",
@@ -227,7 +227,7 @@
       "discount": "۳,۶۵۰,۰۰۰",
       "description": "رابط برق و USB",
       "available": true,
-      "image": "/src/assets/bestSellers/PWECUQC029-22.jpg"
+      "image": "images/bestSellers/PWECUQC029-22.jpg"
     },
     {
       "id": "bestSellers10",
@@ -236,7 +236,7 @@
       "discount": "۶۲۵,۰۰۰",
       "description": "شارژر دیواری",
       "available": false,
-      "image": "/src/assets/bestSellers/HADRON-25W-22.jpg"
+      "image": "images/bestSellers/HADRON-25W-22.jpg"
     },
     {
       "id": "bestSellers11",
@@ -245,49 +245,49 @@
       "discount": "",
       "description": "باتری آلکالاین",
       "available": true,
-      "image": "/src/assets/bestSellers/battrey-xiaomi-NIM-1161.jpg"
+      "image": "images/bestSellers/battrey-xiaomi-NIM-1161.jpg"
     }
   ],
   "articles": [
     {
       "id": "articles1",
       "title": "بهترین هارد اکسترنال SSD: سرعت و امنیت در کنار هم!",
-      "image": "/src/assets/articles/ssd-external-dastresi-Artboard.jpg"
+      "image": "images/articles/ssd-external-dastresi-Artboard.jpg"
     },
         {
       "id": "articles2",
       "title": "بهترین ساعت‌ های هوشمند صفحه گرد: قیمت و مدل‌های برتر در دسترسی",
-      "image": "/src/assets/articles/round-screen-smart-watch-dastresiArtboard.jpg"
+      "image": "images/articles/round-screen-smart-watch-dastresiArtboard.jpg"
     },
         {
       "id": "articles3",
       "title": "کابل MFi چیست؟ : ناجی باتری آیفون شما یا یک حقه تبلیغاتی؟",
-      "image": "/src/assets/articles/what-is-mfi-apple-dastresi-Artboard.jpg"
+      "image": "images/articles/what-is-mfi-apple-dastresi-Artboard.jpg"
     },
         {
       "id": "articles4",
       "title": "شارژ بی‌ سیم در برابر شارژ با کابل: کدام یک برای آیفون شما بهتر است؟",
-      "image": "/src/assets/articles/wireless-charging-vs-charger-dastresiArtboard.jpg"
+      "image": "images/articles/wireless-charging-vs-charger-dastresiArtboard.jpg"
     },
         {
       "id": "articles5",
       "title": "بهترین کابل شارژ برای آیفون: راهنمای کامل انتخاب در ۵ دقیقه!",
-      "image": "/src/assets/articles/iphone-cable-charger-dastresiArtboard.jpg"
+      "image": "images/articles/iphone-cable-charger-dastresiArtboard.jpg"
     },
         {
       "id": "articles6",
       "title": "خرید بهترین هندزفری سیمی تا ۵۰۰ تومان",
-      "image": "/src/assets/articles/wired-handsfree-phone-dastresi.jpg"
+      "image": "images/articles/wired-handsfree-phone-dastresi.jpg"
     },
         {
       "id": "articles7",
       "title": "معرفی ۵ مدل از بهترین میکروفون بویا",
-      "image": "/src/assets/articles/best-smelling-microphone-dastresi-Artboard.jpg"
+      "image": "images/articles/best-smelling-microphone-dastresi-Artboard.jpg"
     },
         {
       "id": "articles8",
       "title": "راهنمای خرید بهترین میکروفون زیر ۱ میلیون تومان",
-      "image": "/src/assets/articles/Microphone-under-1-millionArtboard.jpg"
+      "image": "images/articles/Microphone-under-1-millionArtboard.jpg"
     }
   ],
 
