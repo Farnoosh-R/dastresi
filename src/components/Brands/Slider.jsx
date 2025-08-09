@@ -42,28 +42,28 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="../../src/assets/brands/acefast.jpg" alt="" />
+          <img src="images/brands/acefast.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/brands/anker.jpg" alt="" />
+          <img src="images/brands/anker.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/brands/camelion.jpg" alt="" />
+          <img src="images/brands/camelion.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/brands/inoben.jpg" alt="" />
+          <img src="images/brands/inoben.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/brands/mcdodo.jpg" alt="" />
+          <img src="images/brands/mcdodo.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../../src/assets/brands/powerology.jpg"
+            src="images/brands/powerology.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/brands/ravpower.jpg" alt="" />
+          <img src="images/brands/ravpower.jpg" alt="" />
         </SwiperSlide>
       </Swiper>
       </div>

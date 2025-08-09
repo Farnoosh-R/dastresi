@@ -11,7 +11,7 @@ const HeaderLogo = () => {
 
     return(
         <div className="header-logo flex items-center gap-10">
-            <img className=" w-[96px] h-[40px]" src="../../src/assets/logo.png" alt="" />
+            <img className=" w-[96px] h-[40px]" src="images/logo.png" alt="" />
             <div className="hidden sm:flex flex-3 text-[var(--gray-2)]">
                 <div className="-ml-6 mt-3 z-50 text-[18px]"><FiSearch /></div>
                 <input className="bg-[#f7f8fa] shadow-2xs rounded-[10px] flex px-7 py-2 w-full" type="text"  placeholder="جستجو محصولات"/>

@@ -20,12 +20,12 @@ export default function Slider() {
         <Swiper
           spaceBetween={0}
           effect={"fade"}
-          // autoplay={{
-          //   // ← این بخش ضروری است
-          //   delay: 2000, // زمان توقف بین اسلایدها (ms)
-          //   disableOnInteraction: false,
-          //   pauseOnMouseEnter: true,
-          // }}
+          autoplay={{
+            // ← این بخش ضروری است
+            delay: 2000, // زمان توقف بین اسلایدها (ms)
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
           loop
           navigation={true}
           pagination={{
@@ -38,25 +38,25 @@ export default function Slider() {
           <SwiperSlide>
             <img
               className="block w-full"
-              src="../../src/assets/banner-dastresi-1.png"
+              src="images/banner-dastresi-1.png"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="block w-full"
-              src="../../src/assets/banner-dastresi-2.png"
+              src="images/banner-dastresi-2.png"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="block w-full"
-              src="../../src/assets/banner-dastresi-3.png"
+              src="images/banner-dastresi-3.png"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="block w-full"
-              src="../../src/assets/banner-dastresi-4.jpg"
+              src="images/banner-dastresi-4.jpg"
             />
           </SwiperSlide>
         </Swiper>

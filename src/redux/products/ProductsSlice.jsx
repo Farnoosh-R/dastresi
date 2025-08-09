@@ -2,8 +2,10 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const fetchData = createAsyncThunk("/products/fetch", async () => {
   try {
-    let res = await fetch("../db.json");
+    let res = await fetch(`${import.meta.env.BASE_URL}db.json`);
+    console.log("Fetch status:", res.status);
     let data = await res.json();
+    console.log("Fetched data:", data);
     return data;
  
     // console.log(articles)

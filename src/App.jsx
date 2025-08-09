@@ -36,7 +36,7 @@ function App() {
 
   return (
     <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/dastresi">
       {/* <MyContext
         value={{
           dailyDiscountRight: dailyDiscountRight,

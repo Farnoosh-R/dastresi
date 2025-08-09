@@ -32,31 +32,31 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/adaptor.png" alt="" />
+          <img src="images/selectedCat/adaptor.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/battery.png" alt="" />
+          <img src="images/selectedCat/battery.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/cable.png" alt="" />
+          <img src="images/selectedCat/cable.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/gaming.png" alt="" />
+          <img src="images/selectedCat/gaming.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/handsfree.png" alt="" />
+          <img src="images/selectedCat/handsfree.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../../src/assets/selectedCat/Holder Negahdarande.png"
+            src="images/selectedCat/Holder Negahdarande.png"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/mobadel o rabet.png" alt="" />
+          <img src="images/selectedCat/mobadel o rabet.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../src/assets/selectedCat/powerbank.png" alt="" />
+          <img src="images/selectedCat/powerbank.png" alt="" />
         </SwiperSlide>
       </Swiper>
       </div>

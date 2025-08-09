@@ -6,7 +6,7 @@ const WhyDastresi = () => {
         <div className="flex-1">
           <img
             className="block mx-auto w-[25%]"
-            src="../../src/assets/WhyDastresi/icon4.png"
+            src="images/WhyDastresi/icon4.png"
             alt=""
           />
           <div className="text-[var(--gray-2)] font-bold">امکان خرید حضوری</div>
@@ -18,7 +18,7 @@ const WhyDastresi = () => {
         <div className="flex-1">
           <img
             className="block mx-auto w-[25%]"
-            src="../../src/assets/WhyDastresi/icon3.png"
+            src="images/WhyDastresi/icon3.png"
             alt=""
           />
           <div className="text-[var(--gray-2)] font-bold">ارسال سریع</div>
@@ -30,7 +30,7 @@ const WhyDastresi = () => {
         <div className="flex-1">
           <img
             className="block mx-auto w-[25%]"
-            src="../../src/assets/WhyDastresi/icon1.png"
+            src="images/WhyDastresi/icon1.png"
             alt=""
           />
           <div className="text-[var(--gray-2)] font-bold">
@@ -44,7 +44,7 @@ const WhyDastresi = () => {
         <div className="flex-1">
           <img
             className="block mx-auto w-[25%]"
-            src="../../src/assets/WhyDastresi/icon2.png"
+            src="images/WhyDastresi/icon2.png"
             alt=""
           />
           <div className="text-[var(--gray-2)] font-bold">
